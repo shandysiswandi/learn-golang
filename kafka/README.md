@@ -21,4 +21,22 @@ go run segmentio-kafka-go/main.go -producer
 go run segmentio-kafka-go/main.go --producer
 # with custom message
 go run segmentio-kafka-go/main.go --producer --message=this-is-your-message
+
+```
+## How to run `confluentinc-confluent-kafka-go`
+
+- consumer / subscriber
+```sh
+go run confluentinc-confluent-kafka-go/main.go -consumer
+# OR
+go run confluentinc-confluent-kafka-go/main.go --consumer
+```
+
+- producer / publisher
+```sh
+go run confluentinc-confluent-kafka-go/main.go -producer
+# OR
+go run confluentinc-confluent-kafka-go/main.go --producer
+# with custom message
+go run confluentinc-confluent-kafka-go/main.go --producer --message=this-is-your-message
 ```
